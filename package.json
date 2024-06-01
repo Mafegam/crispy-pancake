@@ -1,0 +1,28 @@
+{
+  "name": "crispy-pancake",
+  "version": "1.0.0",
+  "main": ".src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.0",
+    "mongoose-dateonly": "^1.0.6",
+    "morgan": "^1.10.0",
+    "serverless-dynamic-dotenv": "^1.0.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.2"
+  }
+}
