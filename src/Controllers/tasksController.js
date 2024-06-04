@@ -62,22 +62,6 @@ const tasksController = {
         }
     },
 
-    // seeTaskByCompletition: async (request, answer) => {
-    //     try {
-    //         const completedTask = await tasksSchema.find({ Relevance: request.params.completed });
-    //         answer.json({
-    //             result: "Successful",
-    //             message: "Here are the tasks: ",
-    //             data: completedTask
-    //         })
-    //     } catch (error) {
-    //         console.log("Error: ", error);
-    //         answer.json({ error: true, message: "There was an error retrieving the task" });
-    //     }
-    // },
-
-    
-
     updateTask: async (request, answer) => {
         try {
             const taskUpdated = await tasksSchema.findByIdAndUpdate(
